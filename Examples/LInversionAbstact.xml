@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IccProfile>
+  <Header>
+    <PreferredCMMType>SICC</PreferredCMMType>
+    <ProfileVersion>2.10</ProfileVersion>
+    <ProfileDeviceClass>abst</ProfileDeviceClass>
+    <DataColourSpace>Lab </DataColourSpace>
+    <PCS>Lab </PCS>
+    <CreationDateTime>2010-10-02T09:20:59</CreationDateTime>
+    <PrimaryPlatform>00000000h</PrimaryPlatform>
+    <ProfileFlags EmbeddedInFile="false" UseWithEmbeddedDataOnly="false"/>
+    <DeviceManufacturer>00000000h</DeviceManufacturer>
+    <DeviceModel>00000000h</DeviceModel>
+    <DeviceAttributes ReflectiveOrTransparency="reflective" GlossyOrMatte="glossy" MediaPolarity="negative" MediaColour="colour"/>
+    <RenderingIntent>Perceptual</RenderingIntent>
+    <PCSIlluminant>
+      <XYZNumber X="0.96420288" Y="1.00000000" Z="0.82490540"/>
+    </PCSIlluminant>
+    <ProfileCreator>lXML</ProfileCreator>
+  </Header>
+  <Tags>
+    <lut16Type>
+      <TagSignature>A2B0</TagSignature>
+      <Channels InputChannels="3" OutputChannels="3"/>
+      <BCurves>
+        <Curve>
+		  65535 0
+		</Curve>
+        <Curve>
+		  0 65535
+		</Curve>
+        <Curve>
+		  0 65535
+		</Curve>
+      </BCurves>
+      <CLUT GridGranularity="2">
+          <TableData File="16bit-2x2x2-identity.txt" Format="text" Encoding="16bit"/>
+      </CLUT>
+      <ACurves>
+        <Curve IdentitySize="256"/>
+        <Curve IdentitySize="256"/>
+        <Curve IdentitySize="256"/>
+      </ACurves>
+    </lut16Type>
+    <textDescriptionType>
+      <TagSignature>desc</TagSignature>
+      <ASCII><![CDATA[L Inversion Profile]]></ASCII>
+    </textDescriptionType>
+    <textType>
+      <TagSignature>cprt</TagSignature>
+      <ASCII><![CDATA[Copyright goes here]]></ASCII>
+    </textType>
+    <XYZType>
+      <TagSignature>wtpt</TagSignature>
+      <XYZNumber X="0.95016479" Y="1.00000000" Z="1.08842468"/>
+    </XYZType>
+  </Tags>
+</IccProfile>
